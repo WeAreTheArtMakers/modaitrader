@@ -4,7 +4,7 @@
 
 [![License: WATAM](https://img.shields.io/badge/License-WATAM-blue.svg)](LICENSE)
 [![Built with ❤️](https://img.shields.io/badge/Built%20with-❤️-red.svg)](https://github.com/WeAreTheArtMakers)
-[![Version 1.0.0](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/WeAreTheArtMakers/modaitrader/releases)
+[![Version 1.0.1](https://img.shields.io/badge/version-1.0.1-blue.svg)](https://github.com/WeAreTheArtMakers/modaitrader/releases)
 
 <div align="center">
   <img src="screenshots/dashboard.png" alt="modAI Trader Dashboard" width="800"/>
@@ -61,15 +61,15 @@
 
 ### 📥 Download
 
-**Latest Release: v1.0.0**
+**Latest Release: v1.0.1**
 
 <div align="center">
 
 | Platform | Download | Size |
 |----------|----------|------|
-| 🍎 **macOS (Intel)** | [Download `.dmg`](https://github.com/WeAreTheArtMakers/modaitrader/releases/download/v1.0.0/modAI.Trader-1.0.0.dmg) | ~96 MB |
-| 🍎 **macOS (Apple Silicon)** | [Download `.dmg`](https://github.com/WeAreTheArtMakers/modaitrader/releases/download/v1.0.0/modAI.Trader-1.0.0-arm64.dmg) | ~91 MB |
-| 🪟 **Windows** (64-bit) | [Download `.exe`](https://github.com/WeAreTheArtMakers/modaitrader/releases/download/v1.0.0/modAI.Trader.Setup.1.0.0.exe) | ~74 MB |
+| 🍎 **macOS (Intel)** | [Download `.dmg`](https://github.com/WeAreTheArtMakers/modaitrader/releases/download/v1.0.1/modAI.Trader-1.0.1.dmg) | ~96 MB |
+| 🍎 **macOS (Apple Silicon)** | [Download `.dmg`](https://github.com/WeAreTheArtMakers/modaitrader/releases/download/v1.0.1/modAI.Trader-1.0.1-arm64.dmg) | ~91 MB |
+| 🪟 **Windows** (64-bit) | [Download `.exe`](https://github.com/WeAreTheArtMakers/modaitrader/releases/download/v1.0.1/modAI.Trader.Setup.1.0.1.exe) | ~74 MB |
 
 </div>
 
@@ -80,7 +80,11 @@
 2. Open the downloaded file
 3. Drag **modAI Trader** to Applications folder
 4. Launch from Applications
-5. If you see "unidentified developer" warning:
+5. If Gatekeeper blocks launch ("app is damaged" or "unidentified developer"):
+   - First try: right click app -> **Open**
+   - Or go to `System Settings -> Privacy & Security` and click **Open Anyway**
+   - If your system still blocks startup, use **Sentinel.app** to remove quarantine on the downloaded app bundle, then open again
+6. If you see "unidentified developer" warning:
    - Right-click the app → Open
    - Click "Open" in the dialog
 
@@ -106,6 +110,7 @@ To purchase and activate your license:
    - Which network/coin you used
 4. Receive your device-bound license key.
 5. Enter the key in the app and click **Activate License**.
+6. License keys are generated per device ID, so use the exact device ID shown in your app.
 
 **License Features:**
 - ✅ Lifetime validity
