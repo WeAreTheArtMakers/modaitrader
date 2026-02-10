@@ -67,9 +67,9 @@
 
 | Platform | Download | Size |
 |----------|----------|------|
-| 🍎 **macOS (Intel)** | [Download `.dmg`](https://github.com/WeAreTheArtMakers/modaitrader/releases/download/v1.0.0/modAI%20Trader-1.0.0.dmg) | ~96 MB |
-| 🍎 **macOS (Apple Silicon)** | [Download `.dmg`](https://github.com/WeAreTheArtMakers/modaitrader/releases/download/v1.0.0/modAI%20Trader-1.0.0-arm64.dmg) | ~91 MB |
-| 🪟 **Windows** (64-bit) | [Download `.exe`](https://github.com/WeAreTheArtMakers/modaitrader/releases/download/v1.0.0/modAI%20Trader%20Setup%201.0.0.exe) | ~74 MB |
+| 🍎 **macOS (Intel)** | [Download `.dmg`](https://github.com/WeAreTheArtMakers/modaitrader/releases/download/v1.0.0/modAI.Trader-1.0.0.dmg) | ~96 MB |
+| 🍎 **macOS (Apple Silicon)** | [Download `.dmg`](https://github.com/WeAreTheArtMakers/modaitrader/releases/download/v1.0.0/modAI.Trader-1.0.0-arm64.dmg) | ~91 MB |
+| 🪟 **Windows** (64-bit) | [Download `.exe`](https://github.com/WeAreTheArtMakers/modaitrader/releases/download/v1.0.0/modAI.Trader.Setup.1.0.0.exe) | ~74 MB |
 
 </div>
 
