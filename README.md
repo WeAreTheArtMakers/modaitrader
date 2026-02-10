@@ -7,7 +7,10 @@
 [![Version 1.0.1](https://img.shields.io/badge/version-1.0.1-blue.svg)](https://github.com/WeAreTheArtMakers/modaitrader/releases)
 
 <div align="center">
-  <img src="screenshots/dashboard.png" alt="modAI Trader Dashboard" width="800"/>
+  <img src="assets/modai-logo.svg" alt="modAI Trader Logo" width="280"/>
+  <br/>
+  <br/>
+  <img src="screenshots/dashboard-market-overview.png" alt="modAI Trader Dashboard" width="900"/>
 </div>
 
 ---
@@ -203,21 +206,27 @@ To purchase and activate your license:
 
 ## 📊 Screenshots
 
-<div align="center">
+### Trading Workspace
 
-### Dashboard
-<img src="screenshots/dashboard.png" alt="Dashboard" width="800"/>
+| Dashboard | Account |
+|---|---|
+| ![Dashboard - Market Overview](screenshots/dashboard-market-overview.png) | ![Account Overview](screenshots/account-overview.png) |
+| ![Analytics & Performance](screenshots/analytics-performance.png) | ![Risk Management](screenshots/risk-management.png) |
 
-### AI Agent
-<img src="screenshots/ai-agent.png" alt="AI Agent" width="800"/>
+### Strategy & Execution
 
-### Risk Management
-<img src="screenshots/risk-dashboard.png" alt="Risk Dashboard" width="800"/>
+| AI Agent | Market Scanner |
+|---|---|
+| ![AI Agent](screenshots/ai-agent.png) | ![Advanced Market Scanner](screenshots/advanced-market-scanner.png) |
+| ![Strategy Analyzer](screenshots/strategy-analyzer.png) | ![Live Decision Preview](screenshots/live-decision-preview.png) |
+| ![Bot Control](screenshots/bot-control.png) | ![Configuration Templates](screenshots/templates.png) |
 
-### Active Trades
-<img src="screenshots/active-trades.png" alt="Active Trades" width="800"/>
+### Configuration & Support
 
-</div>
+| Configuration | Logs |
+|---|---|
+| ![Bot Configuration](screenshots/configuration.png) | ![Event Logs](screenshots/logs.png) |
+| ![About Overview](screenshots/about-overview.png) | ![About Features](screenshots/about-features.png) |
 
 ---
 

@@ -1,11 +1,18 @@
 # Screenshots
 
-Add your app screenshots here:
+Current screenshot set used in `/README.md`:
 
-1. `dashboard.png` - Main dashboard view
-2. `ai-agent.png` - AI Agent interface
-3. `risk-dashboard.png` - Risk management dashboard
-4. `active-trades.png` - Active trades view
-
-Recommended size: 1920x1080 or 1600x900
-Format: PNG with transparency if possible
+1. `dashboard-market-overview.png` - Dashboard / market overview
+2. `account-overview.png` - Account balances, positions, orders
+3. `analytics-performance.png` - PnL and trade analytics
+4. `risk-management.png` - Portfolio risk panel
+5. `ai-agent.png` - AI agent configuration and controls
+6. `advanced-market-scanner.png` - Multi-token opportunity scanner
+7. `strategy-analyzer.png` - Signal analysis and confidence view
+8. `bot-control.png` - Bot runtime and emergency controls
+9. `templates.png` - Professional strategy templates
+10. `configuration.png` - Indicator blend and bot setup
+11. `live-decision-preview.png` - Decision preview detail card
+12. `logs.png` - Event log monitor
+13. `about-overview.png` - About page (overview)
+14. `about-features.png` - About page (features/details)
