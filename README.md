@@ -4,7 +4,7 @@
 
 [![License: WATAM](https://img.shields.io/badge/License-WATAM-blue.svg)](LICENSE)
 [![Built with ❤️](https://img.shields.io/badge/Built%20with-❤️-red.svg)](https://github.com/WeAreTheArtMakers)
-[![Version 1.0.5](https://img.shields.io/badge/version-1.0.5-blue.svg)](https://github.com/WeAreTheArtMakers/modaitrader/releases/latest)
+[![Version 1.0.10](https://img.shields.io/badge/version-1.0.10-blue.svg)](https://github.com/WeAreTheArtMakers/modaitrader/releases/latest)
 
 <div align="center">
   <img src="assets/modai-logo.svg" alt="modAI Trader Logo" width="280"/>
@@ -85,18 +85,18 @@ The app helps users run strategy-based futures trading with live analytics, cont
 
 ### 📥 Download
 
-**Latest Release: v1.0.5**
+**Latest Release: v1.0.10**
 
 <div align="center">
 
 | Platform | Download | Size |
 |----------|----------|------|
-| 🍎 **macOS (Intel)** | [Download `.dmg`](https://github.com/WeAreTheArtMakers/modaitrader/releases/download/v1.0.5/modAI.Trader-1.0.5.dmg) | ~95 MB |
-| 🍎 **macOS (Apple Silicon)** | [Download `.dmg`](https://github.com/WeAreTheArtMakers/modaitrader/releases/download/v1.0.5/modAI.Trader-1.0.5-arm64.dmg) | ~91 MB |
-| 🪟 **Windows** (64-bit Installer) | [Download `.exe`](https://github.com/WeAreTheArtMakers/modaitrader/releases/download/v1.0.5/modAI-Trader-1.0.5-x64.exe) | ~74 MB |
-| 🪟 **Windows** (64-bit Portable) | [Download `.zip`](https://github.com/WeAreTheArtMakers/modaitrader/releases/download/v1.0.5/modAI-Trader-1.0.5-x64.zip) | ~100 MB |
-| 🐧 **Linux x64** | [Download `.AppImage`](https://github.com/WeAreTheArtMakers/modaitrader/releases/download/v1.0.5/modAI.Trader-1.0.5.AppImage) | ~100 MB |
-| 🐧 **Linux ARM64** (Raspberry Pi 5) | [Download `.AppImage`](https://github.com/WeAreTheArtMakers/modaitrader/releases/download/v1.0.5/modAI.Trader-1.0.5-arm64.AppImage) | ~101 MB |
+| 🍎 **macOS (Intel)** | [Download from latest release](https://github.com/WeAreTheArtMakers/modaitrader/releases/latest) | ~95 MB |
+| 🍎 **macOS (Apple Silicon)** | [Download from latest release](https://github.com/WeAreTheArtMakers/modaitrader/releases/latest) | ~91 MB |
+| 🪟 **Windows** (64-bit Installer) | [Download from latest release](https://github.com/WeAreTheArtMakers/modaitrader/releases/latest) | ~80 MB |
+| 🪟 **Windows** (64-bit Portable) | [Download from latest release](https://github.com/WeAreTheArtMakers/modaitrader/releases/latest) | ~113 MB |
+| 🐧 **Linux x64** | [Download from latest release](https://github.com/WeAreTheArtMakers/modaitrader/releases/latest) | ~113 MB |
+| 🐧 **Linux ARM64** (Raspberry Pi 5) | [Download from latest release](https://github.com/WeAreTheArtMakers/modaitrader/releases/latest) | ~113 MB |
 
 </div>
 
@@ -129,8 +129,8 @@ The app helps users run strategy-based futures trading with live analytics, cont
 #### Linux (x64 / ARM64 Raspberry Pi 5)
 1. Download the matching `.AppImage` file
 2. Open terminal in the download folder
-3. Run: `chmod +x "modAI.Trader-1.0.5-arm64.AppImage"` (or x64 file)
-4. Launch: `./modAI.Trader-1.0.5-arm64.AppImage` (or x64 file)
+3. Run: `chmod +x "modAI Trader-1.0.10-arm64.AppImage"` (or x64 file)
+4. Launch: `./modAI Trader-1.0.10-arm64.AppImage` (or x64 file)
 5. If required, install base libraries (`libnss3`, `libgtk-3-0`, `libxss1`)
 
 ### 🔑 License Plans & Activation

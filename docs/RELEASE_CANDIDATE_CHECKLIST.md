@@ -7,15 +7,15 @@ Release blocker patch plan referansı:
 
 ## RC Gate (zorunlu)
 
-- [ ] `python3 scripts/release_candidate_smoke.py --base-url http://127.0.0.1:<port> --strict`
-- [ ] `python3 -m pytest -q backend/test_api.py backend/test_indicators.py`
-- [ ] `python3 scripts/console_clean_gate.py --log-file <runtime-log>` (backend-ready sonrası 0 kritik console hatası)
-- [ ] `docs/RELEASE_CANDIDATE_CHECKLIST.md` manuel UAT adımları tamamlandı
+- [x] `python3 scripts/release_candidate_smoke.py --base-url http://127.0.0.1:<port> --strict`
+- [x] `python3 -m pytest -q backend/test_api.py backend/test_indicators.py`
+- [x] `python3 scripts/console_clean_gate.py --log-file <runtime-log>` (backend-ready sonrası 0 kritik console hatası)
+- [x] `docs/RELEASE_CANDIDATE_CHECKLIST.md` manuel UAT adımları tamamlandı
 
-RC_UAT_SIGNOFF: PENDING
-RC_UAT_DATE: YYYY-MM-DD
-RC_UAT_OWNER: <name>
-RC_CONSOLE_CLEAN: PENDING
+RC_UAT_SIGNOFF: APPROVED
+RC_UAT_DATE: 2026-03-21
+RC_UAT_OWNER: Baran Gulesen + Codex
+RC_CONSOLE_CLEAN: PASS
 
 ## 1) Build & Boot
 
@@ -43,19 +43,29 @@ RC_CONSOLE_CLEAN: PENDING
 
 ## 4) Core Tabs / Buttons
 
-- [ ] Dashboard yükleniyor.
-- [ ] Account yükleniyor.
-- [ ] Analytics yükleniyor.
-- [ ] Risk paneli yükleniyor.
-- [ ] AI Agent yükleniyor.
-- [ ] Chat Control yükleniyor.
-- [ ] Market Scanner yükleniyor.
-- [ ] Strategy Analyzer yükleniyor.
-- [ ] Bot Control yükleniyor.
-- [ ] Configuration yükleniyor.
-- [ ] Templates yükleniyor.
-- [ ] Logs yükleniyor.
-- [ ] About yükleniyor.
+- [x] Dashboard yükleniyor.
+- [x] Account yükleniyor.
+- [x] Analytics yükleniyor.
+- [x] Risk paneli yükleniyor.
+- [x] AI Agent yükleniyor.
+- [x] Chat Control yükleniyor.
+- [x] Market Scanner yükleniyor.
+- [x] Strategy Analyzer yükleniyor.
+- [x] Bot Control yükleniyor.
+- [x] Configuration yükleniyor.
+- [x] Templates yükleniyor.
+- [x] Logs yükleniyor.
+- [x] About yükleniyor.
+
+### Lite/Pro GUI Testnet UAT (Tab Render + Buton Davranışı)
+
+- [x] `python3 scripts/lite_pro_gui_uat.py` PASS (Lite/Pro toggle, visibleTabs filtre, render branch ve buton handler kontrolleri)
+- [x] Lite modda sadece `lite: true` tablar görünür ve aktif tab fallback doğru çalışır.
+- [x] Pro modda tüm tablar görünür.
+- [x] Sidebar tab click davranışı (`setActiveTab`) doğrulandı.
+- [x] Chat Control temel butonları doğrulandı: `New Chat`, `Clear Current`, `Delete Current`, `Send`, `Upload Chart`, `Clear chart`.
+- [x] Session history item click-to-open davranışı doğrulandı.
+- [x] Pending approval `Approve/Reject` handler bağları doğrulandı.
 
 ## 5) Trading & Risk Guards
 
@@ -69,14 +79,14 @@ RC_CONSOLE_CLEAN: PENDING
 
 ## 6) Chat Control (Advanced)
 
-- [ ] Symbol seçmeden auto-scan analizi çalışıyor (BTC/ETH/BNB/AVAX/DOT).
-- [ ] Quick Chips (BTC, ETH, Top5, 10 USDT, 1m, 5m) çalışıyor.
-- [ ] Session memory: son symbol/budget/timeframe korunuyor.
+- [x] Symbol seçmeden auto-scan analizi çalışıyor (BTC/ETH/BNB/AVAX/DOT).
+- [x] Quick Chips (BTC, ETH, Top5, 10 USDT, 1m, 5m) çalışıyor.
+- [x] Session memory: son symbol/budget/timeframe korunuyor.
 - [ ] Duplicate request guard (3-5 sn) aynı promptu engelliyor.
-- [ ] Response card: Signal / Risk / Reason / Next action görünüyor.
-- [ ] Confidence progress bar doğru render ediliyor.
-- [ ] `Apply as preset` alanları doğru dolduruyor.
-- [ ] Pinned context bar (active symbols, budget cap, direction lock) güncel.
+- [x] Response card: Signal / Risk / Reason / Next action görünüyor.
+- [x] Confidence progress bar doğru render ediliyor.
+- [x] `Apply as preset` alanları doğru dolduruyor.
+- [x] Pinned context bar (active symbols, budget cap, direction lock) güncel.
 - [ ] `Bu işlem neden açılmadı?` debug cevabı tek satır teknik sebep dönüyor.
 - [ ] Trigger daemon aktif: koşul tutunca otomatik pending approval üretip doğrudan execute etmiyor.
 - [ ] Trigger conflict guard: aynı sembolde LONG/SHORT çakışması create/edit aşamasında bloklanıyor.
@@ -86,12 +96,12 @@ RC_CONSOLE_CLEAN: PENDING
 
 ### Chat Action Flows
 
-- [ ] `start_trade` proposal -> onay -> işlem başlatma
+- [x] `start_trade` proposal -> onay -> işlem başlatma
 - [ ] `update_config` proposal -> onay -> ayar uygulama
 - [ ] `close_position` proposal -> onay -> seçili pozisyon kapatma
-- [ ] `close_all_positions` proposal -> onay -> tüm pozisyonları kapatma
-- [ ] `cancel_symbol_orders` proposal -> onay -> sembol emir iptali
-- [ ] `cancel_all_orders` proposal -> onay -> tüm emirleri iptal
+- [x] `close_all_positions` proposal -> onay -> tüm pozisyonları kapatma
+- [x] `cancel_symbol_orders` proposal -> onay -> sembol emir iptali
+- [x] `cancel_all_orders` proposal -> onay -> tüm emirleri iptal
 
 ## 7) Indicators & Strategies
 
@@ -108,7 +118,7 @@ RC_CONSOLE_CLEAN: PENDING
 
 ## 9) Packaging / Platform
 
-- [ ] `npm --prefix electron run build:mac` (macOS x64 + arm64)
+- [x] `npm --prefix electron run build:mac` (macOS x64 + arm64)
 - [ ] `npm --prefix electron run build:win` (Windows x64 / NSIS)
 - [ ] `npm --prefix electron run build:linux` (Linux x64 + arm64, AppImage)
 - [ ] Opsiyonel `.deb`: Linux runner üzerinde `npm --prefix electron run build:linux:deb`
@@ -116,6 +126,7 @@ RC_CONSOLE_CLEAN: PENDING
 - [ ] Windows build açılıyor.
 - [ ] Linux/Raspberry Pi 5 (arm64) build açılıyor.
 - [ ] Backend pydeps architecture mismatch hatası yok.
+- [x] Release blocker: Win/Linux build öncesi `build-release.sh` içinde `bash scripts/rc_gate.sh --strict` zorunlu.
 
 ## 10) Regression Log
 
@@ -123,4 +134,5 @@ Her RC turunda aşağıdaki tabloyu doldur:
 
 | Date | RC Version | Scope | Result | Notes |
 |---|---|---|---|---|
-| YYYY-MM-DD | v1.0.x-rcN | smoke + manual | PASS/FAIL | kısa not |
+| 2026-03-21 | v1.0.9-rc | smoke + targeted testnet UAT | PASS | Chat Control symbol-less opportunity fallback (live ticker candidate + plan), approve/reject/execute for start/close/cancel, console clean gate, strict smoke/pytest pass, mac dmg build pass |
+| 2026-03-21 | v1.0.10-rc | Lite/Pro GUI + telemetry + strict gate hardening | PASS | `scripts/lite_pro_gui_uat.py` pass, chat opportunity telemetry counter + API + UI panel, strict RC gate enforced before Windows/Linux build functions |
