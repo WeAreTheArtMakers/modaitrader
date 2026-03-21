@@ -119,8 +119,8 @@ RC_CONSOLE_CLEAN: PASS
 ## 9) Packaging / Platform
 
 - [x] `npm --prefix electron run build:mac` (macOS x64 + arm64)
-- [ ] `npm --prefix electron run build:win` (Windows x64 / NSIS)
-- [ ] `npm --prefix electron run build:linux` (Linux x64 + arm64, AppImage)
+- [x] `npm --prefix electron run build:win` (Windows x64 / NSIS)
+- [x] `npm --prefix electron run build:linux` (Linux x64 + arm64, AppImage)
 - [ ] Opsiyonel `.deb`: Linux runner üzerinde `npm --prefix electron run build:linux:deb`
 - [ ] macOS Apple Silicon build açılıyor.
 - [ ] Windows build açılıyor.
@@ -136,3 +136,4 @@ Her RC turunda aşağıdaki tabloyu doldur:
 |---|---|---|---|---|
 | 2026-03-21 | v1.0.9-rc | smoke + targeted testnet UAT | PASS | Chat Control symbol-less opportunity fallback (live ticker candidate + plan), approve/reject/execute for start/close/cancel, console clean gate, strict smoke/pytest pass, mac dmg build pass |
 | 2026-03-21 | v1.0.10-rc | Lite/Pro GUI + telemetry + strict gate hardening | PASS | `scripts/lite_pro_gui_uat.py` pass, chat opportunity telemetry counter + API + UI panel, strict RC gate enforced before Windows/Linux build functions |
+| 2026-03-21 | v1.0.10 | full multi-platform build + GitHub release | PASS | Mac x64/arm64 DMG, Windows x64 EXE/ZIP, Linux x64/arm64 AppImage uploaded to GitHub Release with marketing notes |
