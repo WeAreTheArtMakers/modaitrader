@@ -1,0 +1,115 @@
+WATAM LICENSE
+WeAreTheArtMakers Proprietary Software License
+
+Copyright (c) 2026 WeAreTheArtMakers. All rights reserved.
+
+================================================================================
+
+TERMS AND CONDITIONS
+
+1. DEFINITIONS
+   "Software" refers to modAI Trader and all associated files, documentation,
+   and materials.
+   "License Key" refers to the unique activation code required to use the Software.
+   "Licensee" refers to the individual or entity that has obtained a valid License Key.
+
+2. GRANT OF LICENSE
+   Subject to the terms of this License, WeAreTheArtMakers grants Licensee a
+   non-exclusive, non-transferable, revocable license to use the Software for
+   personal or commercial purposes, provided that:
+   
+   a) Licensee has obtained a valid License Key
+   b) The Software is used on a single device per License Key
+   c) Licensee complies with all terms of this License
+
+3. RESTRICTIONS
+   Licensee shall NOT:
+   
+   a) Redistribute, sell, lease, or sublicense the Software
+   b) Modify, reverse engineer, decompile, or disassemble the Software
+   c) Remove or alter any proprietary notices or labels on the Software
+   d) Use the Software for illegal purposes
+   e) Share License Keys with others
+   f) Bypass or circumvent the license activation system
+   g) Use the Software on multiple devices with a single License Key
+
+4. OWNERSHIP
+   The Software is licensed, not sold. WeAreTheArtMakers retains all right,
+   title, and interest in and to the Software, including all intellectual
+   property rights.
+
+5. TRADING DISCLAIMER
+   
+   a) RISK WARNING: Trading cryptocurrencies and derivatives involves substantial
+      risk of loss. You should only trade with money you can afford to lose.
+   
+   b) NO GUARANTEE: Past performance does not guarantee future results. The
+      Software provides tools and analysis but does not guarantee profits.
+   
+   c) USER RESPONSIBILITY: Licensee is solely responsible for all trading
+      decisions and their consequences. WeAreTheArtMakers is not liable for
+      any trading losses.
+   
+   d) TESTING REQUIRED: Licensee should thoroughly test strategies on testnet
+      before using real funds.
+
+6. WARRANTY DISCLAIMER
+   THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS
+   FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+7. LIMITATION OF LIABILITY
+   IN NO EVENT SHALL WEARETHEARTMAKERS BE LIABLE FOR ANY DIRECT, INDIRECT,
+   INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+   NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+   DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+   THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+   (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+   THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+8. TERMINATION
+   This License is effective until terminated. WeAreTheArtMakers may terminate
+   this License at any time if Licensee fails to comply with any term of this
+   License. Upon termination, Licensee must cease all use of the Software and
+   destroy all copies.
+
+9. UPDATES AND SUPPORT
+   
+   a) WeAreTheArtMakers may provide updates to the Software at its discretion
+   b) Support is provided on a best-effort basis
+   c) No guarantee of continued updates or support
+
+10. PRIVACY AND DATA
+    
+    a) The Software stores API credentials locally using AES-256-GCM encryption
+    b) No personal data is transmitted to WeAreTheArtMakers servers
+    c) API credentials are only sent to Binance for trading operations
+    d) License activation requires device identification for security
+
+11. GOVERNING LAW
+    This License shall be governed by and construed in accordance with the
+    laws of the jurisdiction where WeAreTheArtMakers is established.
+
+12. ENTIRE AGREEMENT
+    This License constitutes the entire agreement between Licensee and
+    WeAreTheArtMakers regarding the Software and supersedes all prior
+    agreements and understandings.
+
+13. CONTACT
+    For licensing inquiries, support, or questions:
+    GitHub: https://github.com/WeAreTheArtMakers
+    Repository: https://github.com/WeAreTheArtMakers/modaitrader
+
+================================================================================
+
+BY USING THE SOFTWARE, YOU ACKNOWLEDGE THAT YOU HAVE READ THIS LICENSE,
+UNDERSTAND IT, AND AGREE TO BE BOUND BY ITS TERMS AND CONDITIONS.
+
+IF YOU DO NOT AGREE TO THESE TERMS, DO NOT USE THE SOFTWARE.
+
+================================================================================
+
+Built with ❤️ by WeAreTheArtMakers
+Professional AI-Powered Trading Bot
+
+Copyright (c) 2026 WeAreTheArtMakers. All rights reserved.

@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="modAI Trader is an AI-assisted desktop trading bot for Binance Futures with license-first access, risk controls, and real-time analytics."
+    />
+    <title>modAI Trader | AI-Powered Binance Futures Desktop Bot</title>
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <header class="header">
+      <div class="container nav-wrap">
+        <a href="#top" class="brand" aria-label="modAI Trader home">
+          <img src="./assets/modai-logo.svg" alt="modAI Trader" />
+          <span>modAI Trader</span>
+        </a>
+        <button class="menu-btn" aria-expanded="false" aria-controls="menu" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+        <nav id="menu" class="menu">
+          <a href="#features">Features</a>
+          <a href="#screens">Screens</a>
+          <a href="#flow">Setup</a>
+          <a href="#license">License</a>
+          <a href="#team">Team</a>
+          <a href="#faq">FAQ</a>
+          <a class="cta-link" href="https://github.com/WeAreTheArtMakers/modaitrader/releases/latest" target="_blank" rel="noreferrer">Download</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="badge">AI-Assisted Binance Futures Desktop Platform</p>
+            <h1>From market noise to structured execution.</h1>
+            <p>
+              modAI Trader is a desktop app focused on Binance Futures. It combines AI signal support,
+              strategy execution, analytics, and guardrails in one interface. The app starts with
+              license activation first, then unlocks trading modules after valid access.
+            </p>
+            <div class="hero-actions">
+              <a class="btn primary" href="https://github.com/WeAreTheArtMakers/modaitrader/releases/latest" target="_blank" rel="noreferrer">Get Latest Build</a>
+              <a class="btn ghost" href="https://github.com/WeAreTheArtMakers/modaitrader" target="_blank" rel="noreferrer">View Repository</a>
+            </div>
+            <ul class="proof-list">
+              <li>Desktop builds: macOS, Windows, Linux ARM64 (Raspberry Pi 5)</li>
+              <li>Binance Futures (Testnet/Mainnet) with encrypted API credential storage</li>
+              <li>Risk-first flow: guards, limits, and confirmation before execution</li>
+            </ul>
+          </div>
+          <aside class="hero-panel reveal delay-1">
+            <h2>Product Positioning</h2>
+            <p>AI-supported, Binance Futures focused, desktop-native trading bot.</p>
+            <div class="mini-grid">
+              <article>
+                <h3>AI Layer</h3>
+                <p>Signal analysis, strategy suggestions, chat-to-control planning.</p>
+              </article>
+              <article>
+                <h3>Execution</h3>
+                <p>Bot control, Binance API integration, start/stop/panic actions.</p>
+              </article>
+              <article>
+                <h3>Risk</h3>
+                <p>Portfolio and spread guards, budget caps, direction lock controls.</p>
+              </article>
+              <article>
+                <h3>Security</h3>
+                <p>License-first gate and AES-256-GCM encrypted credential storage.</p>
+              </article>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="features" class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="kicker">What The App Does</p>
+            <h2>Real capabilities, aligned with repository behavior</h2>
+          </div>
+          <div class="card-grid">
+            <article class="card reveal">
+              <h3>AI Agent + Chat Control</h3>
+              <p>Generate trade plans, request parameter changes, and run approval-based execution.</p>
+            </article>
+            <article class="card reveal delay-1">
+              <h3>Bot Control Center</h3>
+              <p>Start, stop, panic, emergency cleanup, and close positions from one control surface.</p>
+            </article>
+            <article class="card reveal delay-2">
+              <h3>Risk & Guard Rails</h3>
+              <p>Spread guard, portfolio risk guard, hard budget cap, direction lock, and live guard-state counters.</p>
+            </article>
+            <article class="card reveal">
+              <h3>Analytics & Logs</h3>
+              <p>Track PnL, trade history, execution behavior, and operational logs in real time.</p>
+            </article>
+            <article class="card reveal delay-1">
+              <h3>Strategy Stack</h3>
+              <p>Template and indicator-based strategy flows for scanning, analyzing, and running setups.</p>
+            </article>
+            <article class="card reveal delay-2">
+              <h3>License-Based Access</h3>
+              <p>Application modules remain locked until valid license activation completes.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="screens" class="section dark-block">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="kicker">Screens</p>
+            <h2>Live interface snapshots from this repo</h2>
+          </div>
+          <div class="screens-grid">
+            <figure class="screen reveal">
+              <img src="./screenshots/dashboard-market-overview.png" alt="Dashboard market overview" loading="lazy" />
+              <figcaption>Dashboard</figcaption>
+            </figure>
+            <figure class="screen reveal delay-1">
+              <img src="./screenshots/account-overview.png" alt="Account overview" loading="lazy" />
+              <figcaption>Account</figcaption>
+            </figure>
+            <figure class="screen reveal delay-2">
+              <img src="./screenshots/analytics-performance.png" alt="Analytics performance" loading="lazy" />
+              <figcaption>Analytics</figcaption>
+            </figure>
+            <figure class="screen reveal">
+              <img src="./screenshots/ai-agent.png" alt="AI Agent" loading="lazy" />
+              <figcaption>AI Agent</figcaption>
+            </figure>
+            <figure class="screen reveal delay-1">
+              <img src="./screenshots/bot-control.png" alt="Bot Control" loading="lazy" />
+              <figcaption>Bot Control</figcaption>
+            </figure>
+            <figure class="screen reveal delay-2">
+              <img src="./screenshots/risk-management.png" alt="Risk Management" loading="lazy" />
+              <figcaption>Risk</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section id="flow" class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="kicker">Setup Flow</p>
+            <h2>Install to execution in 4 practical steps</h2>
+          </div>
+          <div class="steps">
+            <article class="step reveal">
+              <span>01</span>
+              <h3>Download Desktop Build</h3>
+              <p>Choose your platform from the release page and install the latest stable build.</p>
+            </article>
+            <article class="step reveal delay-1">
+              <span>02</span>
+              <h3>Activate License</h3>
+              <p>App starts with license gate first. Full modules open after valid key activation.</p>
+            </article>
+            <article class="step reveal delay-2">
+              <span>03</span>
+              <h3>Connect Binance API</h3>
+              <p>Save Testnet or Mainnet credentials in Bot Control and verify account connectivity.</p>
+            </article>
+            <article class="step reveal">
+              <span>04</span>
+              <h3>Run Strategy With Guards</h3>
+              <p>Start bot/trade flow, monitor analytics, and apply risk controls continuously.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="license" class="section dark-block">
+        <div class="container license-grid">
+          <article class="license-card reveal">
+            <p class="kicker">License</p>
+            <h2>Public licensing plans</h2>
+            <p class="price">4 Plans <small>device-ID based activation</small></p>
+            <div class="plan-list">
+              <div class="plan-row">
+                <span>Trial 5 Days</span>
+                <strong>Free</strong>
+              </div>
+              <div class="plan-row">
+                <span>Monthly</span>
+                <strong>$250</strong>
+              </div>
+              <div class="plan-row">
+                <span>Yearly</span>
+                <strong>$2700</strong>
+              </div>
+              <div class="plan-row">
+                <span>One-Time Lifetime</span>
+                <strong>$5000</strong>
+              </div>
+            </div>
+            <ul>
+              <li>Single-device activation with secure Device ID binding</li>
+              <li>Trial users can upgrade to paid plans on the same device</li>
+              <li>Core trading and AI modules after activation</li>
+              <li>Version updates and release downloads</li>
+            </ul>
+            <a class="btn primary full" href="mailto:studiobrn@gmail.com?subject=modAI%20Trader%20License" target="_blank" rel="noreferrer">Request License</a>
+          </article>
+          <article class="risk-card reveal delay-1">
+            <div class="risk-head">
+              <h3>Safe usage note</h3>
+              <p>Start on Testnet before Mainnet.</p>
+            </div>
+            <ul>
+              <li>Use Testnet for first setup and strategy validation.</li>
+              <li>Keep API withdraw permission disabled.</li>
+              <li>Use hard budget caps and direction lock during early runs.</li>
+              <li>Review risk panel and open positions before increasing size.</li>
+              <li>Use Chat Control for plan-first flow: AI analyzes, user approves, then execution starts.</li>
+              <li>In Chat Control, review confidence/risk output and use one-click debug when an action is blocked.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="faq" class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="kicker">FAQ</p>
+            <h2>Critical answers before onboarding</h2>
+          </div>
+          <div class="faq-list">
+            <details class="faq-item reveal">
+              <summary>What are the current license plans?</summary>
+              <p>Trial 5 Days (Free), Monthly ($250), Yearly ($2700), and One-Time Lifetime ($5000).</p>
+            </details>
+            <details class="faq-item reveal delay-1">
+              <summary>Can I test before payment and upgrade later?</summary>
+              <p>Yes. Start with Trial 5 Days, then upgrade the same Device ID to Monthly, Yearly, or Lifetime.</p>
+            </details>
+            <details class="faq-item reveal delay-2">
+              <summary>When does full access open?</summary>
+              <p>Full modules open only after a valid device-bound license key is activated.</p>
+            </details>
+            <details class="faq-item reveal">
+              <summary>Which platforms are supported?</summary>
+              <p>Current public release includes macOS (Intel + Apple Silicon), Windows x64, and Linux ARM64 (Raspberry Pi 5).</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section id="team" class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="kicker">Team</p>
+            <h2>People behind modAI Trader</h2>
+          </div>
+          <div class="team-grid">
+            <article class="team-card reveal">
+              <img class="team-photo team-photo-baran" src="./assets/team-baran.png" alt="Baran Güleşen profile photo" loading="lazy" />
+              <div class="team-meta">
+                <h3>Baran Güleşen</h3>
+                <p class="team-role">Developer</p>
+                <a class="team-mail" href="mailto:admin@wearetheartmakers.com">admin@wearetheartmakers.com</a>
+              </div>
+            </article>
+            <article class="team-card reveal delay-1">
+              <img class="team-photo team-photo-abdullah" src="./assets/team-abdullah.jpeg" alt="Abdullah Keskin portrait in suit" loading="lazy" />
+              <div class="team-meta">
+                <h3>Abdullah Keskin</h3>
+                <p class="team-role">Marketing</p>
+                <a class="team-mail" href="mailto:info@wearetheartmakers.com">info@wearetheartmakers.com</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section final">
+        <div class="container final-box reveal">
+          <h2>Repository landing page is ready for GitHub Pages.</h2>
+          <p>
+            This page is built as a single, modern product landing with release links,
+            screenshots, setup flow, license context, FAQ, and risk notes.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="https://github.com/WeAreTheArtMakers/modaitrader/releases/latest" target="_blank" rel="noreferrer">Open Releases</a>
+            <a class="btn ghost" href="https://github.com/WeAreTheArtMakers/modaitrader/blob/main/README_PUBLIC.md" target="_blank" rel="noreferrer">README_PUBLIC</a>
+            <a class="btn ghost" href="https://github.com/WeAreTheArtMakers/modaitrader/issues" target="_blank" rel="noreferrer">Issues</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-wrap">
+        <p>Trading crypto assets has high risk. Use only capital you can afford to lose.</p>
+        <div class="footer-links">
+          <a href="mailto:admin@wearetheartmakers.com">admin@wearetheartmakers.com</a>
+          <a href="mailto:info@wearetheartmakers.com">info@wearetheartmakers.com</a>
+          <a href="https://discord.gg/watam" target="_blank" rel="noreferrer">Discord</a>
+          <a href="https://github.com/WeAreTheArtMakers/modaitrader" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </div>
+      <div class="container copyright">© <span id="year"></span> modAI Trader</div>
+    </footer>
+    <div class="micro-footer">
+      <div class="container">
+        <a href="https://wearetheartmakers.com" target="_blank" rel="noreferrer">wearetheartmakers.com</a>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

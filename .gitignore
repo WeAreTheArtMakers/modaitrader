@@ -1,0 +1,85 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+venv/
+env/
+ENV/
+
+# Node / package managers
+node_modules/
+frontend/node_modules/
+electron/node_modules/
+
+# Build artifacts
+build/
+dist/
+frontend/build/
+frontend/dist/
+electron/dist/
+electron/frontend/
+electron/backend/
+electron/templates/
+electron/main.*.js
+*.blockmap
+*.dmg
+*.exe
+*.AppImage
+*.zip
+*.tar.gz
+
+# Logs
+*.log
+*.jsonl
+logs/
+bot_errors.log
+backend.log
+frontend.log
+
+# Credentials & secrets
+.env
+.credentials.enc
+.credentials.secure
+.key
+.key.secure
+.private_key.pem
+.master_secret
+.license_private.pem
+license_keys_backup.tar.gz*
+
+# Local state / admin-only data
+licenses.json
+license_state.json
+chat_control_triggers.json
+
+# Misc local artifacts
+Codex.dmg
+modaitrader-public/
+
+# Public-repo mode (keep repository release/docs only)
+backend/
+frontend/
+electron/
+scripts/
+build-release.sh
+build.sh
+check_before_github.sh
+create_license.py
+deploy-github.sh
+license_admin.py
+test_bot_direct.py
+test_credentials.py
