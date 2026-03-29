@@ -4,7 +4,7 @@
 
 [![License: WATAM](https://img.shields.io/badge/License-WATAM-blue.svg)](LICENSE)
 [![Built with ❤️](https://img.shields.io/badge/Built%20with-❤️-red.svg)](https://github.com/WeAreTheArtMakers)
-[![Version 1.0.10](https://img.shields.io/badge/version-1.0.10-blue.svg)](https://github.com/WeAreTheArtMakers/modaitrader/releases/latest)
+[![Version 1.0.11](https://img.shields.io/badge/version-1.0.11-blue.svg)](https://github.com/WeAreTheArtMakers/modaitrader/releases/latest)
 
 <div align="center">
   <img src="assets/modai-logo.svg" alt="modAI Trader Logo" width="280"/>
@@ -22,7 +22,9 @@
 - **Automated Position Monitoring** and management
 - **Intelligent Signal Generation** with confidence scoring
 - **Market Sentiment Analysis** for better decisions
-- **Chat to Control** with approval-based execution and trigger lifecycle (create/edit/cancel/execute)
+- **Chat to Control** with advisory-first copilot flow, approval-based execution, and trigger lifecycle (create/edit/cancel/execute)
+- **Natural Follow-Up Context** so the assistant keeps the active symbol/session context in ongoing chat
+- **Vision Chart Review** with structured Entry / TP / SL blocks and bilingual summary output
 
 ### 📊 Professional Analytics
 - **Real-time PnL Tracking** and performance metrics
@@ -41,6 +43,8 @@
 - **Multi-Bot Support** for parallel trading
 - **Advanced Strategy System** with pre-built templates
 - **Kelly Criterion** position sizing
+- **Safe Startup + Performance Watchdog** to reduce launch-time load spikes and keep the desktop app responsive
+- **Unified Snapshot + Streamed Dashboard Data** for faster initial load and cleaner runtime behavior
 
 ### 🎯 Risk Management
 - **Real-time Portfolio Risk** scoring (0-100)
@@ -55,6 +59,15 @@
 - **Duplicate Request Guard** (anti-repeat window)
 - **Response Cards** with Signal / Risk / Reason / Next Action
 - **Confidence Progress Bar + Apply as Preset** in chat responses
+- **Spread Presets** with strategy-based guard thresholds for Scalping / Momentum / Swing
+- **Entry Quality Score** with spread / micro-volatility / confidence / budget fit breakdown
+- **Override Audit Trail** so forced entries show which guard was overridden and why
+
+### 🧠 Workflow Experience
+- **Lite Mode / Pro Mode** interface switch for simpler onboarding vs full control
+- **AI Agent Status Awareness** inside Chat Control with setup guidance when the copilot is not configured
+- **Real Provider Streaming** support for Ollama / Google / OpenAI where available, with fallback labeling
+- **Performance State Panel** for safe / degrade / cpu watchdog visibility
 
 ### 🔔 Real-Time Notifications
 - Browser notifications for trades
@@ -85,7 +98,7 @@ The app helps users run strategy-based futures trading with live analytics, cont
 
 ### 📥 Download
 
-**Latest Release: v1.0.10**
+**Latest Release: v1.0.11**
 
 <div align="center">
 
@@ -129,8 +142,8 @@ The app helps users run strategy-based futures trading with live analytics, cont
 #### Linux (x64 / ARM64 Raspberry Pi 5)
 1. Download the matching `.AppImage` file
 2. Open terminal in the download folder
-3. Run: `chmod +x "modAI Trader-1.0.10-arm64.AppImage"` (or x64 file)
-4. Launch: `./modAI Trader-1.0.10-arm64.AppImage` (or x64 file)
+3. Run: `chmod +x "modAI Trader-1.0.11-arm64.AppImage"` (or x64 file)
+4. Launch: `./modAI Trader-1.0.11-arm64.AppImage` (or x64 file)
 5. If required, install base libraries (`libnss3`, `libgtk-3-0`, `libxss1`)
 
 ### 🔑 License Plans & Activation
@@ -150,6 +163,12 @@ modAI Trader uses device-ID based licensing.
 4. Receive your device-bound license key.
 5. Enter the key in the app and activate.
 6. Trial users can upgrade to Monthly/Yearly/Lifetime on the same Device ID.
+
+### 🔄 Updates
+
+- **Check for Updates** in the About screen checks the latest GitHub Release and opens the correct asset for your platform.
+- macOS users get the latest `.dmg`, Windows users get the latest installer/portable package, and Linux users get the latest `.AppImage`.
+- Important: every public release must use a **new semantic version tag**. Re-uploading files under the same version will not appear as an update to existing users.
 
 **License Features**
 - ✅ Device-ID bound activation
@@ -212,6 +231,8 @@ Comprehensive documentation is available in the [`docs/`](docs/) folder:
 - **Signal Generation**: AI-powered trade signals
 - **Position Monitoring**: Automated position management
 - **Confidence Scoring**: Signal reliability (0-100%)
+- **Provider Setup**: Ollama, Google Gemini, or OpenAI based workflows
+- **Status-Aware Copilot**: Chat Control warns when AI Agent is not configured or not running
 
 #### 3. Risk Management
 - **Portfolio Risk**: Overall risk exposure
@@ -227,6 +248,13 @@ Comprehensive documentation is available in the [`docs/`](docs/) folder:
 - **Liquidation Hunter**: Catch liquidation cascades
 - **Swing Trader**: Multi-day positions
 - **Contrarian Scalper**: Counter-trend scalping
+
+#### 5. Chat Control Copilot
+- **Assistant-first flow**: strategy questions return guidance, not immediate trade proposals
+- **Trade intent gating**: only clear execution commands create approval cards
+- **Single-output conversation design**: one primary answer per user message
+- **Session continuity**: follow-up questions keep the last relevant symbol/context
+- **Chart vision workflow**: upload a chart, get structured analysis, then convert it into a trade plan
 
 ### Best Practices
 
@@ -344,7 +372,7 @@ A: Contact us if you change devices. One transfer allowed.
 A: Yes. A **5-day trial license** is available and can be upgraded on the same Device ID.
 
 **Q: Do I get updates?**
-A: Yes! All updates are free for license holders.
+A: Yes. License holders can use **Check for Updates** from the About screen to open the latest platform-specific build from GitHub Releases.
 
 ---
 
