@@ -4,7 +4,7 @@
 
 [![License: WATAM](https://img.shields.io/badge/License-WATAM-blue.svg)](LICENSE)
 [![Built with ❤️](https://img.shields.io/badge/Built%20with-❤️-red.svg)](https://github.com/WeAreTheArtMakers)
-[![Version 1.0.11](https://img.shields.io/badge/version-1.0.11-blue.svg)](https://github.com/WeAreTheArtMakers/modaitrader/releases/latest)
+[![Version 1.0.12](https://img.shields.io/badge/version-1.0.12-blue.svg)](https://github.com/WeAreTheArtMakers/modaitrader/releases/latest)
 
 <div align="center">
   <img src="assets/modai-logo.svg" alt="modAI Trader Logo" width="280"/>
@@ -68,6 +68,11 @@
 - **AI Agent Status Awareness** inside Chat Control with setup guidance when the copilot is not configured
 - **Real Provider Streaming** support for Ollama / Google / OpenAI where available, with fallback labeling
 - **Performance State Panel** for safe / degrade / cpu watchdog visibility
+- **Header Live Strip** with compact AI / opportunity / risk radar that stays visible across tabs
+- **Compact / Balanced / Accessible** top-strip density modes for faster reading
+- **Bell / Cash / Soft** alert sound profiles with one-click sound test
+- **Fresh / Aging / Stale** opportunity freshness indicator for top-strip candidates
+- **Shared AI Context** between AI Agent, Scanner, Dashboard, and Chat Control so follow-up actions stay coherent
 
 ### 🔔 Real-Time Notifications
 - Browser notifications for trades
@@ -98,14 +103,14 @@ The app helps users run strategy-based futures trading with live analytics, cont
 
 ### 📥 Download
 
-**Latest Release: v1.0.11**
+**Latest Release: v1.0.12**
 
 <div align="center">
 
 | Platform | Download | Size |
 |----------|----------|------|
-| 🍎 **macOS (Intel)** | [Download from latest release](https://github.com/WeAreTheArtMakers/modaitrader/releases/latest) | ~95 MB |
-| 🍎 **macOS (Apple Silicon)** | [Download from latest release](https://github.com/WeAreTheArtMakers/modaitrader/releases/latest) | ~91 MB |
+| 🍎 **macOS (Intel)** | [Download from latest release](https://github.com/WeAreTheArtMakers/modaitrader/releases/latest) | ~96 MB |
+| 🍎 **macOS (Apple Silicon)** | [Download from latest release](https://github.com/WeAreTheArtMakers/modaitrader/releases/latest) | ~89 MB |
 | 🪟 **Windows** (64-bit Installer) | [Download from latest release](https://github.com/WeAreTheArtMakers/modaitrader/releases/latest) | ~80 MB |
 | 🪟 **Windows** (64-bit Portable) | [Download from latest release](https://github.com/WeAreTheArtMakers/modaitrader/releases/latest) | ~113 MB |
 | 🐧 **Linux x64** | [Download from latest release](https://github.com/WeAreTheArtMakers/modaitrader/releases/latest) | ~113 MB |
@@ -120,6 +125,7 @@ The app helps users run strategy-based futures trading with live analytics, cont
 2. Open the downloaded file
 3. Drag **modAI Trader** to Applications folder
 4. Launch from Applications
+5. Use the Apple Silicon build on M-series Macs and the Intel build on older Macs
 5. If Gatekeeper blocks launch ("app is damaged" or "unidentified developer"):
    - First try: right click app -> **Open**
    - Or go to `System Settings -> Privacy & Security` and click **Open Anyway**
@@ -142,8 +148,8 @@ The app helps users run strategy-based futures trading with live analytics, cont
 #### Linux (x64 / ARM64 Raspberry Pi 5)
 1. Download the matching `.AppImage` file
 2. Open terminal in the download folder
-3. Run: `chmod +x "modAI Trader-1.0.11-arm64.AppImage"` (or x64 file)
-4. Launch: `./modAI Trader-1.0.11-arm64.AppImage` (or x64 file)
+3. Run: `chmod +x "modAI Trader-1.0.12-arm64.AppImage"` (or x64 file)
+4. Launch: `./modAI Trader-1.0.12-arm64.AppImage` (or x64 file)
 5. If required, install base libraries (`libnss3`, `libgtk-3-0`, `libxss1`)
 
 ### 🔑 License Plans & Activation
@@ -169,6 +175,14 @@ modAI Trader uses device-ID based licensing.
 - **Check for Updates** in the About screen checks the latest GitHub Release and opens the correct asset for your platform.
 - macOS users get the latest `.dmg`, Windows users get the latest installer/portable package, and Linux users get the latest `.AppImage`.
 - Important: every public release must use a **new semantic version tag**. Re-uploading files under the same version will not appear as an update to existing users.
+
+### 🆕 Highlights in 1.0.12
+
+- Redesigned top header radar with cleaner alignment, denser information, and cross-tab visibility
+- AI / Opportunity / Risk header strip now supports density presets and sound profiles
+- Strong opportunity sound path hardened so scanner/header candidates trigger louder alerts more reliably
+- About, Bot Information, and top-strip surfaces received deeper English/Turkish localization coverage
+- Dashboard/Scanner/Chat/AI flows remain context-linked so follow-up actions can continue from the current candidate
 
 **License Features**
 - ✅ Device-ID bound activation
