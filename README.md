@@ -306,15 +306,16 @@ Comprehensive documentation is available in the [`docs/`](docs/) folder:
 
 ### Strategy & Execution
 
-| AI Agent | Market Scanner |
+| AI Agent | Chat Control |
 |---|---|
-| ![AI Agent](screenshots/ai-agent.png) | ![Advanced Market Scanner](screenshots/advanced-market-scanner.png) |
-| ![Strategy Analyzer](screenshots/strategy-analyzer.png) | ![Live Decision Preview](screenshots/live-decision-preview.png) |
-| ![Bot Control](screenshots/bot-control.png) | ![Configuration Templates](screenshots/templates.png) |
+| ![AI Agent](screenshots/ai-agent.png) | ![Chat Control](screenshots/chat-control.png) |
+| ![Advanced Market Scanner](screenshots/advanced-market-scanner.png) | ![Strategy Analyzer](screenshots/strategy-analyzer.png) |
+| ![Live Decision Preview](screenshots/live-decision-preview.png) | ![Bot Control](screenshots/bot-control.png) |
+| ![Configuration Templates](screenshots/templates.png) | ![Event Logs](screenshots/logs.png) |
 
 ### Configuration & Support
 
-| Configuration | Logs |
+| Configuration | About |
 |---|---|
 | ![Bot Configuration](screenshots/configuration.png) | ![Event Logs](screenshots/logs.png) |
 | ![About Overview](screenshots/about-overview.png) | ![About Features](screenshots/about-features.png) |
