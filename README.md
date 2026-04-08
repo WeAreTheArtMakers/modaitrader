@@ -4,7 +4,7 @@
 
 [![License: WATAM](https://img.shields.io/badge/License-WATAM-blue.svg)](LICENSE)
 [![Built with ❤️](https://img.shields.io/badge/Built%20with-❤️-red.svg)](https://github.com/WeAreTheArtMakers)
-[![Version 1.0.12](https://img.shields.io/badge/version-1.0.12-blue.svg)](https://github.com/WeAreTheArtMakers/modaitrader/releases/latest)
+[![Version 1.0.16](https://img.shields.io/badge/version-1.0.16-blue.svg)](https://github.com/WeAreTheArtMakers/modaitrader/releases/latest)
 
 <div align="center">
   <img src="assets/modai-logo.svg" alt="modAI Trader Logo" width="280"/>
@@ -103,7 +103,7 @@ The app helps users run strategy-based futures trading with live analytics, cont
 
 ### 📥 Download
 
-**Latest Release: v1.0.12**
+**Latest Release: v1.0.16**
 
 <div align="center">
 
@@ -148,8 +148,8 @@ The app helps users run strategy-based futures trading with live analytics, cont
 #### Linux (x64 / ARM64 Raspberry Pi 5)
 1. Download the matching `.AppImage` file
 2. Open terminal in the download folder
-3. Run: `chmod +x "modAI Trader-1.0.12-arm64.AppImage"` (or x64 file)
-4. Launch: `./modAI Trader-1.0.12-arm64.AppImage` (or x64 file)
+3. Run: `chmod +x "modAI Trader-1.0.16-arm64.AppImage"` (or x64 file)
+4. Launch: `./modAI Trader-1.0.16-arm64.AppImage` (or x64 file)
 5. If required, install base libraries (`libnss3`, `libgtk-3-0`, `libxss1`)
 
 ### 🔑 License Plans & Activation
@@ -176,13 +176,22 @@ modAI Trader uses device-ID based licensing.
 - macOS users get the latest `.dmg`, Windows users get the latest installer/portable package, and Linux users get the latest `.AppImage`.
 - Important: every public release must use a **new semantic version tag**. Re-uploading files under the same version will not appear as an update to existing users.
 
-### 🆕 Highlights in 1.0.12
+### 🆕 Highlights in 1.0.16
 
-- Redesigned top header radar with cleaner alignment, denser information, and cross-tab visibility
-- AI / Opportunity / Risk header strip now supports density presets and sound profiles
-- Strong opportunity sound path hardened so scanner/header candidates trigger louder alerts more reliably
-- About, Bot Information, and top-strip surfaces received deeper English/Turkish localization coverage
-- Dashboard/Scanner/Chat/AI flows remain context-linked so follow-up actions can continue from the current candidate
+- Chat Control now behaves more like an autonomous trading copilot:
+  broad approval-ready prompts return a final answer directly, and if no clean setup qualifies the app can prepare `ANY`-direction or timed follow-up triggers so the user does not need to ask again
+- Follow-up visibility is stronger across the app:
+  `Next run`, `Resolved side`, and fired-trigger state are now surfaced in Chat Control and the persistent top strip for faster operator awareness
+- Market Regime is now a real global behavior layer:
+  regime source selection, live breadth summary, posture details, and refreshed market snapshots are handled as a whole-market control rather than a single-symbol view
+- Liq Hunter and scanner behavior are cleaner and more actionable:
+  incomplete liquidation setups no longer look executable, scanner state is lighter, watchlist editing is more isolated, and heavy list rendering has been reduced
+- Runtime stability for long sessions is stronger:
+  backend session cleanup was hardened, runtime telemetry now includes memory and cache-maintenance signals, and idle cache compaction helps the app stay responsive over longer uptime
+- Desktop update behavior is safer:
+  update checks run later in startup, use platform-aware asset selection, and now apply backoff when GitHub is slow or unreachable
+- English/Turkish consistency is deeper:
+  deterministic trade suggestions, follow-up messages, and approval-related assistant text now track the selected UI language more reliably
 
 **License Features**
 - ✅ Device-ID bound activation
